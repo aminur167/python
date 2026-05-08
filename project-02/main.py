@@ -7,7 +7,7 @@ while(a != n):
     a = int(input("Guess the number: "))
     if(a>n):
         print("Lower number please.")
-    else:
+    elif(a<n):
         print("Higher number please")
 
-print(f"You have guessed the number {n} correctly in {guesses} attempts");
+print(f"You have guessed the number {n} correctly in {guesses} attempts")
